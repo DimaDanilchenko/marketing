@@ -1,0 +1,26 @@
+.body{
+  background-color: black;
+}
+.block1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.block1__image{
+  width: 100%;
+}
+.block1__title{
+  margin: 0;
+  font-size: 26px;
+  text-align: center;
+  color: #cfa971;
+}
+.block1__lists{
+  color: white;
+}
+.block1__list{
+
+}
+.block1__subtitle{
+  
+}
