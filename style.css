@@ -1,5 +1,6 @@
 .body{
   background-color: black;
+  font-family: 'Inter';
 }
 .block1{
   display: flex;
@@ -16,11 +17,36 @@
   color: #cfa971;
 }
 .block1__lists{
+  display: flex;
+  flex-direction: column;
   color: white;
+  list-style-type: decimal;
+  font-size: 20px;
+  margin-top: 20px;
+  width: calc(100% - 20*2px);
 }
 .block1__list{
-
+  width: calc(100% - 20*2px);
 }
 .block1__subtitle{
+  margin: 0;
+  font-size: 26px;
+  text-align: center;
+  color: #cfa971;
+}
+.block1__lists2{
+  color: white;
+  list-style-type: decimal;
+}
+.block1__list2{
+  font-size: 20px;
   
+}
+.block1__button{
+  background-color: #cfa971;
+  width: calc(100% - 2*20px);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  min-height: 50px;
+  border: none;
 }
