@@ -101,6 +101,11 @@
   text-align: center;
   color: #cfa971;
 }
+@media screen and (max-width: 500px) {
+  .block2__subtitle{
+    font-size: 18px;
+  }
+}
 .block2__lists2{
   margin: 0 auto;
   color: white;
