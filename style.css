@@ -1,17 +1,32 @@
 @import url(./fonts/fonts.css);
 .body{
-  background-color: #1d1d1b;
   font-family: 'Inter';
 }
 .block1{
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: #cfa971;
+  color: black;
 }
 .block2{
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.block3{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #6b1212;
+  color: black;
+}
+.block4{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #690f73;
+  color: black;
 }
 .block1__image{
   width: 100%;
@@ -25,7 +40,6 @@
   width: calc(100% - 30*2px);
   font-size: 26px;
   text-align: center;
-  color: #cfa971;
 }
 .block1__title:nth-child(3){
   margin-bottom: 20px;
@@ -61,7 +75,7 @@
 .block1__lists{
   display: flex;
   flex-direction: column;
-  color: white;
+  color: black;
   list-style-type: decimal;
   font-size: 20px;
   margin-top: 20px;
