@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(235, 235, 235);
   color: black;
 }
 .block1__image{
@@ -14,6 +14,9 @@
   width: calc(100% - 30*2px);
   font-size: 26px;
   text-align: center;
+}
+.block1__title:nth-child(1){
+  font-weight: 900;
 }
 .block1__title:nth-child(3){
   margin-bottom: 20px;
