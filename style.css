@@ -5,10 +5,8 @@
   font-family: 'Inter';
 }
 .button {
-  padding: 20px 80px;
-  background: #ba9c80;
-  color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline;
+  color: #707070;
   font-size: 24px;
   font-weight: 600;
   border-radius: 10px;
@@ -16,6 +14,7 @@
   overflow-x: hidden;
   margin: 0 auto;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 @media screen and (max-width: 500px) {
   .button{
