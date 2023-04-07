@@ -38,6 +38,9 @@
   width: 80px;
   text-align: center;
 }
+.button:nth-child(2){
+  margin-top: 80px;
+}
 @media screen and (max-width: 500px) {
   .button{
     font-size: 16px;
