@@ -18,16 +18,16 @@
 }
 .main__title{
   margin: 0;
-  color: #ffaa00;
+  color: #e6a24b;
   margin-top: 20px;
-  text-align: right;
+  text-align: left;
   font-size: 24px;
 }
 .button {
   text-decoration: none;
   padding: 20px 20px;
   color: rgb(0, 0, 0);
-  background: #ff9f45;
+  background: #e6a24b;
   font-size: 24px;
   font-weight: 600;
   border-radius: 10px;
