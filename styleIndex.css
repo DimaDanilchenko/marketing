@@ -14,7 +14,7 @@
 .main{
   display: flex;
   flex-direction: column;
-  width: calc(100% - 30*2px);
+  width: calc(100% - 30px);
   margin: 0 auto;
 }
 .main__title{
