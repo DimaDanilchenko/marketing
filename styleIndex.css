@@ -1,28 +1,41 @@
-.body{
+.body-main {
   background-color: rgb(0, 0, 0);
-  
+
 }
-.wrapper{
-  background-image: url(./image/photo_main.jpeg);
+
+.wrapper-main {
   margin: 0 auto;
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
 }
-.main{
+
+.main {
   display: flex;
   flex-direction: column;
-  width: calc(100% - 30px);
   margin: 0 auto;
+  position: relative;
+  max-width: 500px;
 }
-.main__title{
-  margin: 0;
+
+.main__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.main__title {
+  margin: 0 auto;
   color: #cfa971;
   margin-top: 20px;
   text-align: left;
   font-size: 24px;
+  width: calc(100% - 30px);
 }
+
 .button {
   text-decoration: none;
   padding: 15px 15px;
@@ -37,12 +50,25 @@
   font-weight: 900;
   width: 80px;
   text-align: center;
+  margin-left: 15px;
 }
-.button:nth-child(2){
+
+.button:nth-child(2) {
   margin-top: 80px;
 }
+.button:nth-child(6) {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 120px;
+}
+.button:nth-child(7) {
+  margin: 0 auto;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 500px) {
-  .button{
+  .button {
     font-size: 16px;
   }
 }
@@ -58,11 +84,84 @@
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
   animation: flareAnimation 3s infinite linear;
 }
+
 @keyframes flareAnimation {
   0% {
-      left: -150%;
+    left: -150%;
   }
+
   100% {
-      left: 150%;
+    left: 150%;
   }
 }
+
+/* body-about-us */
+
+.body-about-us {
+  background-color: black;
+}
+
+.about-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: calc(100% - 30*2px);
+}
+
+.about-us__title {
+  margin: 0;
+  font-size: 26px;
+  text-align: center;
+  color: #c3aa5b;
+  font-weight: 900;
+}
+
+.about-us__subtitle {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 26px;
+  text-align: center;
+  color: #c3aa5b;
+  font-weight: 400;
+}
+
+.about-us__text {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 26px;
+  text-align: center;
+  color: #c3aa5b;
+  font-weight: 400;
+}
+
+.about-us__lists1 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  list-style-type: decimal;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  color: #c3aa5b;
+}
+
+.about-us__list1 {
+  margin-top: 15px;
+}
+
+.about-us__lists2 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  list-style-type: decimal;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  color: #c3aa5b;
+}
+
+.about-us__list2 {
+  margin-top: 15px;
+}
+
