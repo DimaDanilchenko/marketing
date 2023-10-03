@@ -1,0 +1,6 @@
+.button-education {
+  margin-top: 30px;
+}
+.button-education:last-child{
+  margin-bottom: 30px;
+}

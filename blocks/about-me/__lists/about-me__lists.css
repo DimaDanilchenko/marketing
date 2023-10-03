@@ -1,0 +1,10 @@
+.about-me__lists {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  list-style-type: decimal;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  color: #c3aa5b;
+}

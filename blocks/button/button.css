@@ -1,0 +1,77 @@
+.button {
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 15px 15px;
+  color: rgb(0, 0, 0);
+  background: #cfa971;
+  font-weight: 600;
+  border-radius: 10px;
+  position: relative;
+  overflow-x: hidden;
+  margin-top: 440px;
+  font-weight: 900;
+  width: calc(100% - 35*2px);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.button:first-child {
+  margin-top: 340px;
+}
+
+.button:nth-child(2) {
+  margin-top: 80px;
+}
+
+.button:nth-child(6) {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.button:nth-child(7) {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button:nth-child(8) {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.button:nth-child(9) {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .button,
+  .button2,
+  .button3 {
+    font-size: 20px;
+  }
+}
+
+.button .flare {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 45px;
+  transform: skewX(-45deg);
+  animation: flareAnimation;
+  left: -150%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+  animation: flareAnimation 3s infinite linear;
+}
+
+@keyframes flareAnimation {
+  0% {
+    left: -150%;
+  }
+
+  100% {
+    left: 150%;
+  }
+}

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Mulish:wght@500&display=swap');
 
 * {
   margin: 0;
@@ -18,7 +19,7 @@ textarea {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.2;
   width: 100%;
@@ -118,7 +119,7 @@ body {
 .input-box textarea {
   resize: none;
   padding: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .message-box {
@@ -127,7 +128,8 @@ body {
 
 .button {
   display: flex;
-  align-self: center;
+  margin: 0 auto;
+  padding: 15px 15px;
 }
 
 .button-back {
@@ -135,7 +137,7 @@ body {
   color: white;
   display: flex;
   align-self: center;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 10px 40px;
   border-radius: 7px;
   transition: 0.2s;

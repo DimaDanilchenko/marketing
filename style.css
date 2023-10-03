@@ -1,0 +1,51 @@
+@import url(./vendor/normalize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Mulish:wght@500&display=swap');
+
+@import url(./blocks/body-main/body-main.css);
+
+@import url(./blocks/wrapper-main/wrapper-main.css);
+
+@import url(./blocks/main/main.css);
+@import url(./blocks/main/__image/main__image.css);
+@import url(./blocks/main/__title/main__title.css);
+
+@import url(./blocks/button-block/button-block.css);
+
+@import url(./blocks/button/button.css);
+
+@import url(./blocks/button2/button2.css);
+
+@import url(./blocks/button3/button3.css);
+
+@import url(./blocks/body-about-us/body-about-us.css);
+@import url(./blocks/about-us-wrapper/about-us-wrapper.css);
+@import url(./blocks/body-about-us/__title/about-us__title.css);
+@import url(./blocks/body-about-us/__subtitle/about-us__subtitle.css);
+@import url(./blocks/body-about-us/__lists1/about-us__lists1.css);
+@import url(./blocks/body-about-us/__list1/about-us__list1.css);
+@import url(./blocks/body-about-us/__text/about-us__text.css);
+@import url(./blocks/body-about-us/__lists2/about-us__lists2.css);
+@import url(./blocks/body-about-us/__list2/about-us__list2.css);
+
+@import url(./blocks/body-about-me/body-about-me.css);
+@import url(./blocks/about-me-wrapper/about-me-wrapper.css);
+@import url(./blocks/about-me/__title/about-me__title.css);
+@import url(./blocks/about-me/__subtitle/about-me__subtitle.css);
+@import url(./blocks/about-me/__text/about-me__text.css);
+@import url(./blocks/about-me/__lists/about-me__lists.css);
+@import url(./blocks/about-me/__list/about-me__list.css);
+
+@import url(./blocks/body-education/body-education.css);
+@import url(./blocks/education-wrapper/education-wrapper.css);
+@import url(./blocks/education/__title/education__title.css);
+@import url(./blocks/education/__image1/education__image1.css);
+@import url(./blocks/education/__subtitle/education__subtitle.css);
+@import url(./blocks/education/__lists/education__lists.css);
+@import url(./blocks/education/__text1/education__text1.css);
+@import url(./blocks/education/__text2/education__text2.css);
+@import url(./blocks/education/__text3/education__text3.css);
+@import url(./blocks/education/__text4/education__text4.css);
+@import url(./blocks/education/__image2/education__image2.css);
+
+@import url(./blocks/button-education/button-education.css);
